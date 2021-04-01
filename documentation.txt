@@ -1,0 +1,70 @@
+#----------------------------------------------TDM library
+Import class : import TDM
+
+#----------------------------------------------List class
+
+Create an instance: list = TDM.List()
+
+a) list.add(element)
+
+b) list.addAll(array_of_elements)
+
+c) list.update(list_index, new_element)
+
+d) list.clear()
+
+e) list.size()
+
+f) list.isEmpty()
+
+g) list.get(element_index)
+
+h) list.contain(element_to_search)
+
+i) list.remove(index)
+
+j) list.indexOf(element_to_search)
+
+
+#-----------------------------------------------Table class
+
+Create an instance: table = TDM.Table()
+
+a) table.addColumn(column_name)
+
+b) table.addRow(column_name, element_in_row)
+
+c) table.updateRow(column_name, row_index, new_value)
+
+d) table.updateColumn(old_name, new_name)
+
+e) table.removeColumn(column_name)
+
+f) table.removeRow(row_index)
+
+g) table.getData(column_name, row_index)
+
+h) table.display()
+
+i) table.saveTable(name_to_save_the_table)
+
+j) table.loadTable(name_of_the_saved_table)
+
+
+#-----------------------------------------------Geometry class
+
+Create an instance: geom = TDM.Geometry()
+
+a) geom.distance2D(x1, y1, x2, y2)
+
+b) geom.circleCircumference(radius)
+
+c) geom.circleArea(radius)
+
+d) geom.sphereArea(radius)
+
+e) geom.sphereVolume(radius)
+
+f) geom.coneArea(radius, height)
+
+g) geom.coneVolume(radius, height)
